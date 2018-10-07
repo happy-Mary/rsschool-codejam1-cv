@@ -63,6 +63,32 @@ header .main-links p>b {
     width: 20%;
 }
 
+main details {
+    margin: 10px 0;
+    padding: 2px;
+    outline: none;
+}
+
+main details summary {
+    outline: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+main details p,
+main details li {
+    margin: 0;
+}
+
+main details ul, main details p {
+    padding: .5em 1em;
+}
+
+main details p:last-child,
+main details ul:last-child {
+    border-bottom: 1px solid rgba(102, 153, 153, .8);
+}
+
 main h2 {
     text-transform: uppercase;
     font-weight: 500;
