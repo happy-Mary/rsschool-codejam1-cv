@@ -9,7 +9,7 @@ ul {
     list-style-position: inside;
 }
 
-ul li {
+ul li, p {
     line-height: 1.5;
 }
 
@@ -53,7 +53,7 @@ header .main-links {
     box-sizing: border-box;
     float: left;
     width: 70%;
-    padding-left: 20px;
+    padding-left: 50px;
 }
 
 header .main-links p>b {
@@ -65,4 +65,8 @@ main h2 {
     text-transform: uppercase;
     font-weight: 500;
     text-decoration: underline;
+    background: rgba(102, 153, 153, .4);
+    padding: 5px;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
