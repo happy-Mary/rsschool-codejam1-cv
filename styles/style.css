@@ -1,0 +1,42 @@
+body {
+    background: rgb(153, 153, 255);
+}
+
+.container {
+    width: 60%;
+    max-width: 1024px;
+    margin: 10px auto;
+    padding: 30px 20px;
+    background: #fff;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
+header {
+    overflow: hidden;
+}
+
+header h1 {
+    margin-top: 0;
+}
+
+header>img {
+    float: left;
+    width: 28%;
+    max-width: 200px;
+}
+
+header .main-links {
+    box-sizing: border-box;
+    float: left;
+    width: 70%;
+    padding-left: 20px;
+}
+
+header .main-links>p {
+    font-size: 1.1em;
+}
+
+header .main-links p>b {
+    display: inline-block;
+    width: 20%;
+}
