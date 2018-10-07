@@ -1,11 +1,16 @@
 body {
     background: rgb(153, 153, 255);
+    font-size: 18px;
 }
 
 ul {
     margin: 0;
     padding: 0;
     list-style-position: inside;
+}
+
+ul li {
+    line-height: 1.5;
 }
 
 h1, h2 {
@@ -50,11 +55,11 @@ header .main-links {
     padding-left: 20px;
 }
 
-header .main-links>p {
-    font-size: 1.1em;
-}
-
 header .main-links p>b {
     display: inline-block;
     width: 20%;
+}
+
+main h2 {
+    text-transform: uppercase;
 }
